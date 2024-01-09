@@ -259,6 +259,8 @@ p {
 .effect-section {
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 
     @media screen and (min-width: 1024px) {
         padding-top: 90px;
@@ -268,6 +270,8 @@ p {
     @media screen and (min-width: 1440px) {
         padding-top: 120px;
         padding-bottom: 120px;
+        padding-left: 70px;
+        padding-right: 70px;
     }
 }
 
@@ -300,8 +304,8 @@ p {
 }
 
 .effect-section-list {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
     margin-top: 50px;
     margin-bottom: 50px;
 
@@ -312,8 +316,6 @@ p {
     @media screen and (min-width: 1440px) {
         margin-top: 170px;
         margin-bottom: 100px;
-        padding-left: 70px;
-        padding-right: 70px;
     }
 }
 
@@ -378,11 +380,9 @@ p {
     line-height: 12.12px;
     color: #000000;
     margin-bottom: 10px;
-    padding-left: 30px;
 
     @media screen and (min-width: 1440px) {
         font-size: 12px;
-        padding-left: 70px;
     }
 }
 
