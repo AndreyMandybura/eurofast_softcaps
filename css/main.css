@@ -1,5 +1,6 @@
 :root {
     --main-font: "Montserrat", sans-serif;
+    --second-font: "Inter", sans-serif;
 }
 
 html {
@@ -832,6 +833,110 @@ p {
     @media screen and (min-width: 1440px) {
         width: 235px;
         height: 108px;
+    }
+}
+
+.section-contacts {
+    background-color: #005dba;
+    padding-top: 60px;
+    padding-left: 16px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 16px;
+    }
+}
+
+.contacts-box {
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.contacts-title {
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 36px;
+    }
+}
+
+.contacts-text {
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+
+.contacts-phone-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    @media screen and (min-width: 1024px) {
+        margin-bottom: 0;
+    }
+}
+
+.contacts-phone-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+.contacts-phone-number {
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-decoration: none;
+
+    @media screen and (min-width: 375px) {
+        font-size: 20px;
+    }
+}
+
+.contacts-mail-box {
+    display: flex;
+    align-items: center;
+
+    @media screen and (min-width: 1024px) {
+        margin-left: 50px;
+    }
+}
+
+.contacts-mail-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+.contacts-mail {
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+    @media screen and (min-width: 375px) {
+        font-size: 20px;
     }
 }
 
