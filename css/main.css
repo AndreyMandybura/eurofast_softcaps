@@ -1018,14 +1018,4 @@ p {
     align-items: center;
 }
 
-.footer-text {
-    font-family: var(--third-font);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.02em;
-    color: #fff;
-}
-
-
 
