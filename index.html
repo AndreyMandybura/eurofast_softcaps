@@ -14,6 +14,30 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <header>
+        <div class="header container">
+            <div class="header-box">
+                <a href="./index.html" class="header-logo-link"><img src="./images/logo.png" alt="" class="header-logo"></a>
+                <button type="button" class="page-header-btn" is-open aria-expanded="false" aria-controls="menu-container"
+                    data-menu-button>
+                    <svg width="21px" height="17px">
+                        <use class="header-menu" href="./images/svg/header_menu.svg#2"></use>
+                        <use class="header-close-menu" href="./images/svg/header_close_menu.svg#3"></use>
+                    </svg>
+                </button>
+                <div class="menu-container" is-open id="menu-container" data-menu>
+                    <ul class="menu-list list">
+                        <li class="menu-list-item"><a href="#for_whom" class="menu-list-link txt-deco">Головна</a></li>
+                        <li class="menu-list-item"><a href="#readings" class="menu-list-link txt-deco">Дія препарату</a></li>
+                        <li class="menu-list-item"><a href="#for_whom" class="menu-list-link txt-deco">Показання</a></li>
+                        <li class="menu-list-item"><a href="#readings" class="menu-list-link txt-deco">Як приймати</a></li>
+                        <li class="menu-list-item"><a href="./manual.html" class="menu-list-link txt-deco">Інструкція</a></li>
+                        <li class="menu-list-item"><a href="#where" class="menu-list-link txt-deco">Де придбати</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
     <main>
         <section class="container hero-section">
             <h1 class="hero-title">Потрібен швидкий ефект проти головного болю?</h1>
@@ -139,5 +163,6 @@
             </div>
         </footer>
     </main>
+    <script src="./mobile-menu.js"></script>
 </body>
 </html>
