@@ -1,7 +1,6 @@
 :root {
-    --main-font: "Montserrat", sans-serif;
-    --second-font: "Inter", sans-serif;
-    --third-font: 'Open Sans', sans-serif;
+    --main-font: "Inter", sans-serif;
+    --font-color: #5e5e5e;
 }
 
 html {
@@ -313,6 +312,76 @@ p {
 
     @media screen and (min-width: 1024px) {
         font-size: 24px;
+    }
+}
+
+.components-section {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    @media screen and (min-width: 1024px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+.components-title {
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: var(--font-color);
+    margin-bottom: 16px;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 24px;
+    }
+}
+
+.components-text {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: var(--font-color);
+    margin-bottom: 16px;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 20px;
+    }
+}
+
+.components-list-title {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: var(--font-color);
+
+    @media screen and (min-width: 1024px) {
+        font-size: 20px;
+    }
+}
+
+.components-list {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: var(--font-color);
+    margin-bottom: 16px;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 20px;
     }
 }
 
