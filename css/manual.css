@@ -217,7 +217,7 @@ p {
 
 .menu-list-link {
     @media screen and (max-width: 1023px) {
-        font-family: 'Inter';
+        font-family: var(--main-font);
         font-weight: 400;
         font-size: 18px;
         line-height: 1.18;
@@ -412,7 +412,7 @@ p {
 }
 
 .contacts-title {
-    font-family: var(--second-font);
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.18;
@@ -426,7 +426,7 @@ p {
 }
 
 .contacts-text {
-    font-family: var(--second-font);
+    font-family: var(--main-font);
     font-weight: 400;
     font-size: 20px;
     line-height: 1.18;
@@ -452,7 +452,7 @@ p {
 }
 
 .contacts-phone-number {
-    font-family: var(--second-font);
+    font-family: var(--main-font);
     font-weight: 400;
     font-size: 17px;
     line-height: 1.18;
@@ -481,7 +481,7 @@ p {
 }
 
 .contacts-mail {
-    font-family: var(--second-font);
+    font-family: var(--main-font);
     font-weight: 400;
     font-size: 17px;
     line-height: 1.18;
@@ -523,7 +523,7 @@ p {
 }
 
 .warning-note {
-    font-family: var(--second-font);
+    font-family: var(--main-font);
     font-weight: 400;
     font-size: 10px;
     line-height: 1.18;
@@ -537,7 +537,7 @@ p {
 }
 
 .warning-text {
-    font-family: var(--second-font);
+    font-family: var(--main-font);
     font-weight: 100;
     font-size: 34px;
     line-height: 1.18;
