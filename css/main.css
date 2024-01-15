@@ -503,6 +503,7 @@ p {
 
     @media screen and (min-width: 1440px) {
         font-size: 28px;
+        line-height: 35px;
     }
 }
 
@@ -753,6 +754,7 @@ p {
 
     @media screen and (min-width: 1440px) {
         font-size: 28px;
+        line-height: 35px;
     }
 }
 

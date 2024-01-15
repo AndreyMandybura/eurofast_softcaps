@@ -252,13 +252,13 @@ p {
 }
 
 .main-photo {
-    width: 186px;
+    width: 250px;
     height: 155px;
     margin-left: auto;
     margin-right: auto;
 
     @media screen and (min-width: 768px) {
-        width: 316px;
+        width: 450px;
         height: 264px;
     }
 
@@ -269,7 +269,7 @@ p {
 
     @media screen and (min-width: 1440px) {
         margin-right: 120px;
-        width: 474px;
+        width: 650px;
         height: 396px;
     }
 }
