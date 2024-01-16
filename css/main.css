@@ -109,6 +109,9 @@ p {
         height: 106px;
         border-bottom-right-radius: 80px;
         border-bottom-left-radius: 80px;
+        border-right: 10px solid #e9e8e3;
+        border-left: 10px solid #e9e8e3;
+        border-bottom: 10px solid #e9e8e3;
     }
 }
 
@@ -160,7 +163,7 @@ p {
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        padding-right: 20px;
+        padding-right: 15px;
         height: 106px;
         width: 800px;
     }
