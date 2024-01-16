@@ -4,6 +4,13 @@
     --third-font: 'Open Sans', sans-serif;
 }
 
+@font-face {
+    font-family: "MyriadPro";
+    src:
+        url("./fonts/MyriadPro-Bold.otf") format("opentype");
+    font-weight: 700;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -245,8 +252,12 @@ p {
     padding-bottom: 50px;
 
     @media screen and (min-width: 1024px) {
+            position: relative;
             padding-top: 196px;
             padding-bottom: 90px;
+            background-image: linear-gradient(to bottom left,
+                rgba(255, 91, 62, 1),
+                rgba(13, 122, 248, 1));
         }
 
     @media screen and (min-width: 1440px) {
@@ -262,39 +273,114 @@ p {
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: #FFF;
+    margin-bottom: 5px;
 
     @media screen and (min-width: 1024px) {
-            font-size: 34px;
-            margin-bottom: 50px;
+            font-size: 28px;
+            position: absolute;
+            left: 0;
+            top: 230px;
+            background: #ff2600;
+            width: 405px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
 
     @media screen and (min-width: 1440px) {
-            font-size: 46px;
-            padding-left: 70px;
-            padding-right: 70px;
+            top: 270px;
+            font-size: 35px;
+            width: 510px;
+            padding-left: 30px;
         }
 }
 
+.hero-title::after {
+        display: none;
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        height: 70%;
+        aspect-ratio: 1;
+        transform: translate(50%, -50%) rotate(45deg);
+        background: #ff2600;
+}
+
+@media screen and (min-width: 1024px) {
+        .hero-title::after {
+        display: block;
+    }
+}
+
 .hero-second-title {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #FFF;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 1024px) {
+            font-size: 28px;
+            position: absolute;
+            left: 0;
+            top: 300px;
+            background: #004dff;
+            width: 405px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+    @media screen and (min-width: 1440px) {
+        top: 350px;
+        font-size: 35px;
+        width: 510px;
+        padding-left: 30px;
+        }
+}
+
+.hero-second-title::after {
+        display: none;
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        height: 70%;
+        aspect-ratio: 1;
+        transform: translate(50%, -50%) rotate(45deg);
+        background: #004dff;
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-second-title::after {
+        display: block;
+    }
 }
 
 .hero-img {
     width: 100%;
     border-top-right-radius: 70px;
     border-bottom-left-radius: 70px;
+
+    @media screen and (min-width: 1024px) {
+        width: 590px;
+        border-top-right-radius: 130px;
+        border-bottom-left-radius: 130px;
+        margin-left: auto;
+    }
+
+         @media screen and (min-width: 1440px) {
+             width: 900px;
+         }
 }
 
 .hero-img-box {
     margin-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
-
-    @media screen and (min-width: 1024px) {
-            display: flex;
-            align-items: center;
-            width: calc(100% / 2);
-        }
 
     @media screen and (min-width: 1440px) {
             margin-bottom: 50px;
@@ -313,14 +399,16 @@ p {
     text-align: center;
 
     @media screen and (min-width: 1024px) {
-            font-size: 30px;
+            font-size: 28px;
+            padding-left: 480px;
+            text-align: right;
+            margin-bottom: 120px;
         }
 
     @media screen and (min-width: 1440px) {
-            font-size: 40px;
-            padding-left: 70px;
-            padding-right: 70px;
+            padding-left: 600px;
             margin-bottom: 120px;
+            font-size: 32px;
         }
 }
 
@@ -333,19 +421,61 @@ p {
     color: #FFF;
 }
 
+.hero-text-bold {
+    font-family: 'MyriadPro';
+    font-weight: 700;
+    font-size: 22px;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 31px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        font-size: 35px;
+    }
+}
+
+.hero-img-group-pills {
+    display: none;
+
+    @media screen and (min-width: 1024px) {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 320px;
+        width: 450px;
+        height: 400px;
+    }
+
+    @media screen and (min-width: 1440px) {
+            top: 420px;
+            width: 550px;
+            height: 500px;
+        }
+}
+
 .hero-pills-box {
     display: flex;
     width: calc(100% / 2);
     margin-bottom: 30px;
+
+    @media screen and (min-width: 1024px) {
+            display: none;
+        }
 }
 
 .hero-btn-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-bottom: 50px;
+
+    @media screen and (min-width: 375px) {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
 
     @media screen and (min-width: 768px) {
             justify-content: flex-start;
